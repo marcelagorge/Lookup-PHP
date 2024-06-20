@@ -1,0 +1,95 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, small {
+    margin: 0.5em 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+input, textarea, button {
+    width: 100%;
+    max-width: 300px;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="password"], textarea {
+    background-color: #444;
+    color: white;
+}
+
+button {
+    background-color: #A020F0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7b18c0;
+}
+
+a button {
+    background-color: transparent;
+    border: 2px solid #A020F0;
+}
+
+a button:hover {
+    background-color: #A020F0;
+}
+
+.post, .comment {
+    background-color: #222;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0.5em 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.like-form, .comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.site-name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.container {
+    text-align: center;
+}
